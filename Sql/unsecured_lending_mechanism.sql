@@ -1,0 +1,15 @@
+create table if not exists unsecured_lending_mechanism(
+variations_code bigint not null,
+digital_code bigint null,
+asset_based_lending bigint null,
+lending_account varchar(255) null,
+lending_amount bigint null,
+working_capital varchar(255) null,
+payday varchar(255) null,
+invoice_financing varchar(255) null,
+overdraft varchar(255) null,
+term_loan char null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint unsecured_lending_mechanism_pk primary key(variations_code));
